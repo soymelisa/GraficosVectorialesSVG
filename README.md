@@ -1,12 +1,12 @@
 # GraficosVectorialesSVG
 
 Organización de código SVG:
-< g>...</g>
-Agrupa partes de nuestro código SVG de manera similar a un <div>, en HTML (son los layers). 
+< g>... < /g>
+Agrupa partes de nuestro código SVG de manera similar a un < div >, en HTML (son los layers). 
 No tiene estilos visibles (no se le puede aplicar un fill y esperar que se pinte el fondo), 
 pero los estilos que se le apliquen (fill, stroke, stroke-width...) afectan el contenido.
   
-< defs>...</defs>
+< defs>... < /defs>
 Contiene elementos que se definen, pero no se visualizan, al menos hasta que son
 llamados en algún punto del SVG. Es el lugar habitual para indicar degradados,
 patrones, máscaras, pero también path que se utilizarán más tarde de manera
