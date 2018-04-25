@@ -1,18 +1,18 @@
 # GraficosVectorialesSVG
 
 Organización de código SVG:
-<g>...</g>
+< g>...</g>
 Agrupa partes de nuestro código SVG de manera similar a un <div>, en HTML (son los layers). 
 No tiene estilos visibles (no se le puede aplicar un fill y esperar que se pinte el fondo), 
 pero los estilos que se le apliquen (fill, stroke, stroke-width...) afectan el contenido.
   
-<defs>...</defs>
+< defs>...</defs>
 Contiene elementos que se definen, pero no se visualizan, al menos hasta que son
 llamados en algún punto del SVG. Es el lugar habitual para indicar degradados,
 patrones, máscaras, pero también path que se utilizarán más tarde de manera
 combinada, como en un renderizado de texto sobre trazo.
 
-<symbol id="..." viewBox="..."> </symbol>
+< symbol id="..." viewBox="..."> </symbol>
 Los símbolos son grupos de código reutilizable identificados con un id y que, de la
 misma forma que con <defs>, no se visualizan en el mismo SVG si no son llamados
 por otro elemento. Un <symbol> no necesita estar en un <defs>.
