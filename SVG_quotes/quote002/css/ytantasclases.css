@@ -1,0 +1,38 @@
+@charset "utf-8";
+.symbols {
+  background: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NormalCharacterStyle1
+{
+	font-family : Nebraska;
+	font-size : 180px;
+	line-height : 18.98px;
+	letter-spacing : -1.32px;
+	color : #F26722;
+	color : rgb(242, 103, 34);
+}
+.NormalCharacterStyle2
+{
+	font-family : Nebraska;
+	font-size : 95px;
+	line-height : 18.98px;
+	letter-spacing : -1.32px;
+	color : #F26722;
+	color : rgb(242, 103, 34);
+}
+.NormalCharacterStyle
+{
+	font-family : Nebraska;
+	font-size : 80px;
+	line-height : 27.71px;
+	letter-spacing : -1.72px;
+	color : #F26722;
+	color : rgb(242, 103, 34);
+}
